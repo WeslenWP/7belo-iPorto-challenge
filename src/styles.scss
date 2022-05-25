@@ -2,3 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  box-sizing: border-box;
+  color: white;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  background: #00ad6f url("/assets/bala20.png");
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: 6%;
+}  
