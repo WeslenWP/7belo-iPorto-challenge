@@ -1,0 +1,28 @@
+<section class="min-h-screen flex flex-col justify-center items-center gap-4 md:gap-6 p-4">
+  <span style="font-family: 'Baloo Paaji 2', cursive;"
+    class="text-center font-bold text-5xl sm:text-6xl md:text-7xl">Avaliação de
+    clientes</span>
+
+  <div class="grid grid-rows-4 lg:grid-cols-2 lg:grid-rows-2 gap-3 justify-center">
+
+    <ng-container *ngIf="costumers.length > 0 else loadingCostumers">
+      <div class="card flex flex-col justify-center items-center gap-2 sm:max-w-2xl lg:max-w-lg p-4 rounded-2xl "
+        style="background-color: #23A174;" *ngFor=" let costumer of costumers">
+        <div style="font-family: 'Lilita One', cursive;" class="card-title text-xl sm:text-2xl md:text-3xl">
+          {{costumer.name}}
+        </div>
+        <div style="font-family: 'Inter', sans-serif;"
+          class="card-content font-light text-sm sm:text-base md:text-lg text-justify">
+          <p>{{costumer.body}}</p>
+        </div>
+      </div>
+    </ng-container>
+
+    <ng-template #loadingCostumers>
+      <div class="flex items-center justify-center col-span-full row-span-full w-full h-full font-bold mt-6 text-3xl">
+        Carregando
+      </div>
+    </ng-template>
+
+  </div>
+</section>
