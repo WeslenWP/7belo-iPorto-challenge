@@ -1,10 +1,6 @@
 
 <h1 align="center">Code Challenge 7Belo - iPorto</h1>
 
-<p align="center">
- <a href="#tecnologias">Tecnologias</a> • 
-</p>
-
 ## Pré-requisitos
 
 Antes de começar, você vai precisar ter instalado em sua máquina as ferramentas: [Git](https://git-scm.com) e [Node.js](https://nodejs.org/en/).
