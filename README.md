@@ -1,7 +1,7 @@
 
 <h1 align="center">Code Challenge 7Belo - iPorto</h1>
 <p align="center">
- <a href="#-🛠-tecnologias">Tecnologias</a> •
+ <a href="#tecnologias">Tecnologias</a> •
  <a href="#🎲-rodando-o-projeto">Rodando o projeto</a> •
  <a href="#autor">Autor</a>
 </p>
@@ -12,7 +12,7 @@ Antes de começar, você vai precisar ter instalado em sua máquina as ferrament
 
 ---
 
-## 🛠 Tecnologias
+## Tecnologias
 
 Os seguintes frameworks e libs foram utilizados na construção do projeto:
 * [Angular](https://angular.io/)
