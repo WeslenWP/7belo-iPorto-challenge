@@ -6,11 +6,11 @@
  <a href="#autor">Autor</a>
 </p>
 
+---
+
 ## Pré-requisitos
 
 Antes de começar, você vai precisar ter instalado em sua máquina as ferramentas: [Git](https://git-scm.com) e [Node.js](https://nodejs.org/en/).
-
----
 
 ## Tecnologias
 
