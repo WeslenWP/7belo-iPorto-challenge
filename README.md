@@ -1,7 +1,7 @@
 
 <h1 align="center">Code Challenge 7Belo - iPorto</h1>
 <p align="center">
- <a href="#:toolbox:-tecnologias">Tecnologias</a> •
+ <a href="#tecnologias">Tecnologias</a> •
  <a href="#🎲-rodando-o-projeto">Rodando o projeto</a> •
  <a href="#autor">Autor</a>
 </p>
