@@ -1,27 +1,36 @@
-# Code Challenge 7Belo
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.1.
+<h1 align="center">Code Challenge 7Belo - iPorto</h1>
 
-## Development server
+## Pré-requisitos
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Antes de começar, você vai precisar ter instalado em sua máquina as ferramentas: [Git](https://git-scm.com) e [Node.js](https://nodejs.org/en/).
 
-## Code scaffolding
+### 🛠 Tecnologias
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Os seguintes frameworks e libs foram utilizados na construção do projeto:
+* [Angular](https://angular.io/)
+* [TailwindCSS](https://tailwindcss.com/)
+* [Animate on Scroll](https://michalsnik.github.io/aos/)
+---
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+#### 🎲 Rodando o projeto
 
-## Running unit tests
+```bash
+# Clone este repositório
+$ git clone https://github.com/WeslenWP/7belo-iPorto-challenge.git
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+# Acesse a pasta do projeto no terminal/cmd
+$ cd 7belo-iPorto-challenge
 
-## Running end-to-end tests
+# Instale as dependências
+$ npm i
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+# Execute a aplicação
+$ ng serve --o
+```
+**A aplicação inciará na porta:4200 e será aberta automaticamente, graças a flag *--o*** <br>
+ Caso a aplicação não abra automaticamente, acesse: http://localhost:4200
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+--- 
+<h4 align="center">Feito por <a href="https://github.com/WeslenWP">Weslen Pereira</a></h3>
