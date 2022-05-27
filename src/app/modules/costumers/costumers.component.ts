@@ -15,7 +15,7 @@ export class CostumersComponent implements OnInit {
   constructor(private _costumersService: CostumersService) { }
 
   ngOnInit(): void {
-    this._costumersService.getData().subscribe((res) => this.costumers = res.sort(() => Math.random() - 0.5).slice(0, 4))
+    this._costumersService.getData().subscribe((res) => this.costumers = res.sort(() => Math.random() - 0.5).slice(0, 8))
   }
 
 }
