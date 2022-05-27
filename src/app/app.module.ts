@@ -7,6 +7,8 @@ import { HeadlineComponent } from './modules/headline/headline.component';
 import { ContentComponent } from './modules/content/content.component';
 import { CostumersComponent } from './modules/costumers/costumers.component';
 import { FooterComponent } from './modules/footer/footer.component';
+import { HTTP_INTERCEPTORS } from '@angular/common/http';
+import { AuthInterceptor } from './core/auth/auth.interceptor';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { FooterComponent } from './modules/footer/footer.component';
   imports: [
     BrowserModule, CoreModule
   ],
-  providers: [],
+  providers: [
+    { provide: HTTP_INTERCEPTORS, useClass: AuthInterceptor, multi: true },
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

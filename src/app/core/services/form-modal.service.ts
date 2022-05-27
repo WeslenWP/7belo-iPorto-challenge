@@ -24,11 +24,6 @@ export class FormModalService {
   }
 
   createUser(user: any): Observable<any> {
-    const reqHeader = new HttpHeaders({
-      'Content-Type': 'application/json',
-      'Authorization': `Bearer ${environment.gorestToken}`
-    })
-
     const data = {
       name: user.name,
       email: user.email,
@@ -37,7 +32,7 @@ export class FormModalService {
       gender: Math.random() > Math.random() ? 'female' : 'male'
     }
 
-    return this._httpClient.post(`${environment.url}/users`, data, { headers: reqHeader });
+    return this._httpClient.post(`${environment.url}/users`, data);
   }
 
 
