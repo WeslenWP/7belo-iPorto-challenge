@@ -2,7 +2,7 @@
 <h1 align="center">Code Challenge 7Belo - iPorto</h1>
 <p align="center">
  <a href="#tecnologias">Tecnologias</a> •
- <a href="#🎲-rodando-o-projeto">Rodando o projeto</a> •
+ <a href="#rodando-o-projeto">Rodando o projeto</a> •
  <a href="#autor">Autor</a>
 </p>
 
@@ -12,14 +12,14 @@ Antes de começar, você vai precisar ter instalado em sua máquina as ferrament
 
 ---
 
-## 🧰 Tecnologias
+## Tecnologias
 
 Os seguintes frameworks e libs foram utilizados na construção do projeto:
 * [Angular](https://angular.io/)
 * [TailwindCSS](https://tailwindcss.com/)
 * [Animate on Scroll](https://michalsnik.github.io/aos/)
 
-## 🎲 Rodando o projeto
+## Rodando o projeto
 
 Clone este projeto
 ```bash
@@ -41,4 +41,4 @@ Execute a aplicação
 Caso a aplicação não abra automaticamente, acesse: http://localhost:4200
 
 --- 
-<h4 align="center">Feito por <a href="https://github.com/WeslenWP">Weslen Pereira</a></h3>
+<h4 id="autor" align="center">Feito por <a href="https://github.com/WeslenWP">Weslen Pereira</a></h3>
